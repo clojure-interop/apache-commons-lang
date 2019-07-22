@@ -1,0 +1,17 @@
+(ns core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.apache.commons.lang3.core])
+(require '[org.apache.commons.lang3.arch.core])
+(require '[org.apache.commons.lang3.builder.core])
+(require '[org.apache.commons.lang3.concurrent.core])
+(require '[org.apache.commons.lang3.event.core])
+(require '[org.apache.commons.lang3.exception.core])
+(require '[org.apache.commons.lang3.math.core])
+(require '[org.apache.commons.lang3.mutable.core])
+(require '[org.apache.commons.lang3.reflect.core])
+(require '[org.apache.commons.lang3.text.core])
+(require '[org.apache.commons.lang3.text.translate.core])
+(require '[org.apache.commons.lang3.time.core])
+(require '[org.apache.commons.lang3.tuple.core])

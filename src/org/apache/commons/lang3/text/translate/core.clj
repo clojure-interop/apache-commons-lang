@@ -1,0 +1,17 @@
+(ns org.apache.commons.lang3.text.translate.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.apache.commons.lang3.text.translate.AggregateTranslator])
+(require '[org.apache.commons.lang3.text.translate.CharSequenceTranslator])
+(require '[org.apache.commons.lang3.text.translate.CodePointTranslator])
+(require '[org.apache.commons.lang3.text.translate.EntityArrays])
+(require '[org.apache.commons.lang3.text.translate.JavaUnicodeEscaper])
+(require '[org.apache.commons.lang3.text.translate.LookupTranslator])
+(require '[org.apache.commons.lang3.text.translate.NumericEntityEscaper])
+(require '[org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION])
+(require '[org.apache.commons.lang3.text.translate.NumericEntityUnescaper])
+(require '[org.apache.commons.lang3.text.translate.OctalUnescaper])
+(require '[org.apache.commons.lang3.text.translate.UnicodeEscaper])
+(require '[org.apache.commons.lang3.text.translate.UnicodeUnescaper])
+(require '[org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemover])
