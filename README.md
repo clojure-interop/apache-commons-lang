@@ -1,4 +1,4 @@
-# Apache Common Lang Bindings for Clojure.
+# Apache Commons Lang Bindings for Clojure.
 
 These bindings are created to simplify interaction with java classes from clojure.
 For each java class was created a separate namespace.
